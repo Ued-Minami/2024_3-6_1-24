@@ -1,15 +1,43 @@
-.header {
+@charset "UTF-8";
+
+div {
+    width: 100%;
+    height: 100%;
+}
+    header {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    height: 100px;
     }
-    .ul {
-        display: flex;
+    .title {
+        margin-right: auto;
+    }
+    li {
+        display: inline-block;
         list-style: none;
+        padding: 10px;
     }
-    .li {
-        margin-left: 40px;
-    }
-    .a {
+    a{
         text-decoration: none;
+    }
+
+    img {
+            position: relative;
+            width: 400px;
+            height: 470px;
+            top: 150px;
+            left: 600px;
+        }
+    .firstview img {
+            width: 800px;
+        }
+    .blue-box {
+        width: 70%;
+        height: 200px;
+        top: 200px;
+        background: #0000cd;
+    }
+    p {
+        font-size: 45px;
+        margin: 0 auto;
     }
